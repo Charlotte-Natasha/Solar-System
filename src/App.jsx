@@ -1,13 +1,13 @@
+import Main from "./Main"
 
 
 function App() {
 
 
   return (
-    <div>
-      Hello React 3
-      
-    </div>
+    
+    <Main/>
+
   )
 }
 
