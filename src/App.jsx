@@ -1,3 +1,4 @@
+import { Canvas } from "@react-three/fiber"
 import Main from "./Main"
 
 
@@ -5,10 +6,10 @@ function App() {
 
 
   return (
-    
-    <Main/>
-
-  )
+    <Canvas style={{ background: "black" }}>
+      <Main />
+    </Canvas>
+  );
 }
 
 export default App
