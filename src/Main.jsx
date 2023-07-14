@@ -3,13 +3,11 @@ import { Canvas } from "@react-three/fiber"
 
 const Main = () => {
     return (
-        <Canvas>
-            <color attach='background' args={['black']}/>
-            <OrbitControls/>
-            <Stars/>
+        <Canvas style={{ background: "black" }}>
+            <OrbitControls />
+            <Stars />
         </Canvas>
-        
-    )
+    );
 }
 
 export default Main
